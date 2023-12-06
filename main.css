@@ -1,0 +1,10 @@
+::selection {
+    background-color: #b92226;
+    color: white;
+}
+
+body {
+    font-family: Rubik;
+    margin: 0;
+    padding: 0;
+}
