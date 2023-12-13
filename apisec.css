@@ -1,6 +1,6 @@
 .apisec {
     background-color: #272727;
-    padding: 140px 100px;
+    padding: 113px 100px;
     justify-content: center;
     flex-direction: column;
     display: flex;
@@ -39,14 +39,35 @@
     color: rgba(255, 255, 255, 0.752);
 }
 
+.apibox-1 h2,
+.apibox-1 p {
+    z-index: 2; 
+    position: relative;
+}
+
 .apibox-1 {
     text-align: center;
-    background-color: #2f2f2f;
+    position: relative;
+    background-image: url(/images/lan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 20px 55px;
     border-radius: 10px;
     margin-right: 50px;
     cursor: pointer;
     transition: padding 0.3s;
+}
+
+.apibox-1::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
+    border-radius: 10px; 
+    z-index: 1; 
 }
 
 .apibox-3:hover,
@@ -66,14 +87,36 @@
     transition: color 0.3s;
 }
 
+
+.apibox-2 h2,
+.apibox-2 p {
+    z-index: 2;
+    position: relative;
+}
+
 .apibox-2 {
+    background-image: url(/images/code2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    background-color: #2f2f2f;
+    position: relative;
     padding: 20px 55px;
     border-radius: 10px;
     margin-right: 50px;
     cursor: pointer;
     transition: padding 0.3s;
+}
+
+.apibox-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 10px;
+    z-index: 1;
 }
 
 .apibox-2 h2 {
@@ -87,13 +130,35 @@
     transition: color 0.3s;
 }
 
+.apibox-3 h2,
+.apibox-3 p {
+    z-index: 2;
+    position: relative;
+}
+
 .apibox-3 {
+    background-image: url(/images/server.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
-    background-color: #2f2f2f;
+    position: relative;
     padding: 20px 55px;
     border-radius: 10px;
+    margin-right: 50px;
     cursor: pointer;
     transition: padding 0.3s;
+}
+
+.apibox-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 10px;
+    z-index: 1;
 }
 
 .apibox-3 h2 {

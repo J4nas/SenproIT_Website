@@ -1,0 +1,157 @@
+body {
+    background-color: #272727;
+}
+
+.javasec {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.java-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.java-welcomeinfo h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.java-welcomeinfo p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.java-welcomeinfo a {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    transition: color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 42px;
+}
+
+.java-welcomeinfo a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.java-welcomeinfo {
+    margin-bottom: 75px;
+}
+
+.java-welcomeinfo p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.java-definition {
+    text-align: left;
+}
+
+.java-definition h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.java-definition p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+.java-definition p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.java-installations {
+    text-align: left;
+}
+
+.java-installation1 h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.java-installation1 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.java-installation4 p,
+.java-installation3 p,
+.java-installation2 p,
+.java-installation1 p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.java-installation1 a {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.java-installation1 a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.java-installation2 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.java-installation3 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.java-installation1 p:hover,
+.java-installation2 p:hover,
+.java-installation4 p:hover,
+.java-installation3 p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.java-installation4 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.moreinformations9 {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.moreinformations9:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+

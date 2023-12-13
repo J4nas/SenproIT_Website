@@ -1,0 +1,89 @@
+body {
+    background-color: #2f2f2f;
+}
+
+.teamssec {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.teams-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.teams-welcomeinfo h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.teams-welcomeinfo p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.teams-welcomeinfo a {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    transition: color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 42px;
+}
+
+.teams-welcomeinfo a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.teams-welcomeinfo {
+    margin-bottom: 75px;
+}
+
+.teams-welcomeinfo p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.teams-definition {
+    text-align: center;
+}
+
+.teams-definition h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.teams-definition p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+.teams-definition p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.moreinformations7 {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.moreinformations7:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+

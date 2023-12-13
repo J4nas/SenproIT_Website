@@ -1,0 +1,89 @@
+body {
+    background-color: #272727;
+}
+
+.githubsec {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.github-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.github-welcomeinfo h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.github-welcomeinfo p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.github-welcomeinfo a {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    transition: color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 42px;
+}
+
+.github-welcomeinfo a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.github-welcomeinfo {
+    margin-bottom: 75px;
+}
+
+.github-welcomeinfo p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.github-definition {
+    text-align: center;
+}
+
+.github-definition h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.github-definition p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+.github-definition p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.moreinformations3 {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.moreinformations3:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+

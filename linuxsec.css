@@ -1,0 +1,157 @@
+body {
+    background-color: #2f2f2f;
+}
+
+.linuxsec {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.linux-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.linux-welcomeinfo h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.linux-welcomeinfo p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.linux-welcomeinfo a {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    transition: color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 42px;
+}
+
+.linux-welcomeinfo a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.linux-welcomeinfo {
+    margin-bottom: 75px;
+}
+
+.linux-welcomeinfo p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.linux-definition {
+    text-align: left;
+}
+
+.linux-definition h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.linux-definition p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+.linux-definition p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.linux-installations {
+    text-align: left;
+}
+
+.linux-installation1 h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.linux-installation1 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.linux-installation4 p,
+.linux-installation3 p,
+.linux-installation2 p,
+.linux-installation1 p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.linux-installation1 a {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.linux-installation1 a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.linux-installation2 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.linux-installation3 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.linux-installation1 p:hover,
+.linux-installation2 p:hover,
+.linux-installation4 p:hover,
+.linux-installation3 p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.linux-installation4 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.moreinformations4 {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.moreinformations4:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+

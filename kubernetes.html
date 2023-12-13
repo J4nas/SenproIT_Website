@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="homesec.css">
+    <link rel="stylesheet" href="apisec.css">
+    <link rel="stylesheet" href="docsec.css">
+    <link rel="stylesheet" href="commentsec.css">
+    <link rel="stylesheet" href="gns3sec.css">
+    <link rel="stylesheet" href="kubernetessec.css">
+    <title>SenproDoc</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navbar-container">
+            <img class="senproimgnav" src="/images/senpro2.png"><a href="#"></a></img>
+            <li><a href="/">Home</a></li>
+            <li><a href="#grafana">Grafana</a></li>
+            <li><a href="docs.html">Docs</a></li>
+            <li><a href="comments.html">Kommentare</a></li>
+        </ul>
+    </div>
+    <section id="kubernetes" class="kubernetessec">
+        <div class="kubernetes-welcomeinfo">
+            <h2>KUBERNETES DOCUMENTATION</h2>
+            <p>Hier findest du kurze Informationen sowie eventuelle Installationsanleitungen zu diesem Thema.</p>
+            <a href="docs.html">(Klicke um zurück zu den Docs zu kommen)<p class="backtodoc"></p></a>
+        </div>
+        <div class="kubernetes-container">
+            <div class="kubernetes-definition">
+                <h2>KUBERNETES Definition</h2>
+                <p>Kubernetes ist eine Open-Source-Plattform für die Automatisierung<br> der Bereitstellung, Skalierung und Verwaltung containerisierter<br> Anwendungen. Es ermöglicht die effiziente Orchestrierung von<br> Containern über mehrere Hosts hinweg und bietet Funktionen wie<br> Lastenausgleich, Selbstheilung und deklarative Konfiguration.<br> Kubernetes erleichtert die Entwicklung und Verwaltung von<br> Anwendungen in containerisierter Umgebung.</p>
+                <a class="moreinformations2" href="https://kubernetes.io/docs/home/">Mehr Informationen zu diesem Thema (Klick)</a>
+            </div>
+            <div class="kubernetes-installations">
+                <div class="kubernetes-installation1">
+                    <h2>KUBERNETES Installation Windows</h2>
+                    <h3>1. KUBERNETES herunterladen</h3>
+                    <p>Lade Minikube von der offiziellen Website herunter und installiere es.</p>
+                </div>
+                <div class="kubernetes-installation2">
+                    <h3>2. Starte Minikube</h3>
+                    <p>"minikube start"</p>
+                </div>
+                <div class="kubernetes-installation3">
+                    <h3>3. Überprüfe den Status des Clusters</h3>
+                    <p>"kubectl cluster-info"</p>
+                </div>
+                <div class="kubernetes-installation4">
+                    <h3>4. Erstelle und starte eine einfache Anwendung</h3>
+                    <p>"kubectl create deployment hello-world --image=gcr.io/google-samples/hello-app:1.0"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

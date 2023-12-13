@@ -1,0 +1,157 @@
+body {
+    background-color: #2f2f2f;
+}
+
+.kubernetessec {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.kubernetes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.kubernetes-welcomeinfo h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.kubernetes-welcomeinfo p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.kubernetes-welcomeinfo a {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    transition: color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 42px;
+}
+
+.kubernetes-welcomeinfo a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.kubernetes-welcomeinfo {
+    margin-bottom: 75px;
+}
+
+.kubernetes-welcomeinfo p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.kubernetes-definition {
+    text-align: left;
+}
+
+.kubernetes-definition h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.kubernetes-definition p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+.kubernetes-definition p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.kubernetes-installations {
+    text-align: left;
+}
+
+.kubernetes-installation1 h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.kubernetes-installation1 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.kubernetes-installation4 p,
+.kubernetes-installation3 p,
+.kubernetes-installation2 p,
+.kubernetes-installation1 p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.kubernetes-installation1 a {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.kubernetes-installation1 a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.kubernetes-installation2 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.kubernetes-installation3 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.kubernetes-installation1 p:hover,
+.kubernetes-installation2 p:hover,
+.kubernetes-installation4 p:hover,
+.kubernetes-installation3 p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.kubernetes-installation4 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.moreinformations2 {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.moreinformations2:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+

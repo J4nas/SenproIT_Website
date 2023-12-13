@@ -12,14 +12,23 @@
     <link rel="stylesheet" href="apisec.css">
     <link rel="stylesheet" href="docsec.css">
     <link rel="stylesheet" href="commentsec.css">
+    <link rel="stylesheet" href="gns3sec.css">
+    <link rel="stylesheet" href="nginxsec.css">
+    <link rel="stylesheet" href="dockersec.css">
+    <link rel="stylesheet" href="kubernetessec.css">
+    <link rel="stylesheet" href="githubsec.css">
+    <link rel="stylesheet" href="linuxsec.css">
+    <link rel="stylesheet" href="teamssec.css">
+    <link rel="stylesheet" href="bitwardensec.css">
+    <link rel="stylesheet" href="javasec.css">
     <title>SenproDoc</title>
 </head>
 <body>
     <div class="navbar">
         <ul class="navbar-container">
             <img class="senproimgnav" src="/images/senpro2.png"><a href="#"></a></img>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">API</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="index.html#grafana">Grafana</a></li>
             <li><a href="docs.html">Docs</a></li>
             <li><a href="comments.html">Kommentare</a></li>
         </ul>
@@ -27,53 +36,45 @@
     <section id="docs" class="docssec">
         <div class="doc-text">
             <h2>DOCUMENTATION</h2>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing<br> elitr, sed diam nonumy eirmod tempor invidunt ut</p>
-        </div>
-        
-        <div id="popup-container" class="popup-container">
-            <div class="popup-content">
-                <span class="close-btn" onclick="closePopup()">&times;</span>
-                <h2 id="popup-title">hh</h2>
-                <p id="popup-content">hh</p>
-            </div>
+            <p>Hier findest du kurze Dokumentationen sowie Anleitungen<br>zu umfassenden Themen wie hier gelistet</p>
         </div>
 
         <div class="doc-container">
-            <div class="docbox-1" onclick="openPopup('GNS3', 'Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam')">
+            <div class="docbox-1" onclick="weiterleiten()">
                 <h2>GNS3</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam</p>
+                <p>GNS3 ist eine Open-Source-Software für<br> Netzwerksimulationen, die es<br> Fachleuten ermöglicht, virtuelle<br> Netzwerke zu erstellen und zu testen.</p>
             </div>
-            <div class="docbox-5" onclick="openPopup('GNS3', 'Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam')">
+            <div class="docbox-5" onclick="weiterleiten2()">
                 <h2>NGINX</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam</p>
+                <p>Nginx ist eine Open-Source-Software<br> für Webserver, die es Profis erlaubt,<br> Websites und Anwendungen<br> effizient zu hosten und zu managen.</p>
             </div>
-            <div class="docbox-6" onclick="openPopup('GNS3', 'Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam')">
+            <div class="docbox-6" onclick="weiterleiten3()">
                 <h2>DOCKER</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam</p>
+                <p>Docker ist eine Open-Source-Plattform,<br> die Profis ermöglicht, Anwendungen<br> in leichten Containern zu entwickeln,<br> zu deployen und zu managen.</p>
             </div>
-            <div class="docbox-7" onclick="openPopup('GNS3', 'Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam')">
+            <div class="docbox-7" onclick="weiterleiten4()">
                 <h2>KUBERNETES</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam</p>
+                <p>Kubernetes ist eine Open-Source-Platt-<br>form für die Automatisierung,<br> Bereitstellung und Skalierung<br> containerisierter Anwendungen.</p>
             </div>
-            <div class="docbox-8" onclick="openPopup('GNS3', 'Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam')">
+            <div class="docbox-8" onclick="weiterleiten5()">
                 <h2>GITHUB</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam</p>
+                <p>GitHub ist eine Plattform für<br> die gemeinsame Entwicklung von<br> Softwareprojekten, auf der Entwickler<br> Code hosten und verwalten können.</p>
             </div>
-            <div class="docbox-9" onclick="openPopup('GNS3', 'Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam')">
+            <div class="docbox-9" onclick="weiterleiten6()">
                 <h2>LINUX</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam</p>
+                <p>Linux ist ein Betriebssystemkernel,<br> Basis für verschiedene Open-Source-<br>Betriebssysteme, anpassbar<br> von Nutzern.</p>
             </div>
-            <div class="docbox-10" onclick="openPopup('GNS3', 'Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam')">
+            <div class="docbox-10" onclick="weiterleiten7()">
                 <h2>MICROSOFT TEAMS</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam</p>
+                <p>Microsoft Teams ist eine Plattform für die<br> Zusammenarbeit in Echtzeit, die<br> Chat, Videokonferenzen, und<br> Dateiaustausch integriert.</p>
             </div>
-            <div class="docbox-11" onclick="openPopup('GNS3', 'Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam')">
+            <div class="docbox-11" onclick="weiterleiten8()">
                 <h2>BITWARDEN</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam</p>
+                <p>Bitwarden ist ein Open-Source-Passw-<br>ord-Manager, der sicheres<br> Speichern und Verwalten von<br> Passwörtern ermöglicht.</p>
             </div>
-            <div class="docbox-12" onclick="openPopup('GNS3', 'Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam')">
+            <div class="docbox-12" onclick="weiterleiten9()">
                 <h2>JAVA LNG</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur<br>sadipscing elitr, sed diam nonumy<br>eirmod tempor inviduntut labore<br>et dolore magna aliquyam</p>
+                <p>Java ist eine vielseitige Program-<br>miersprache für plattformunabhän-<br>gige Softwareentwicklung mit breiter<br> Anwendung im IT-Bereich.</p>
             </div> 
         </div>
     </section>

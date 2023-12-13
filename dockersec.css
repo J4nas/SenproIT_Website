@@ -1,0 +1,83 @@
+body {
+    background-color: #272727;
+}
+
+.dockersec {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.docker-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.docker-welcomeinfo h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.docker-welcomeinfo p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.docker-welcomeinfo a {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    transition: color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 42px;
+}
+
+.docker-welcomeinfo a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.docker-welcomeinfo {
+    margin-bottom: 55px;
+}
+
+.docker-welcomeinfo p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.docker-definition h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.docker-definition p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+.docker-definition p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.moreinformations11 {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.moreinformations11:hover {
+    color: rgba(255, 255, 255, 0.752);
+}

@@ -1,0 +1,157 @@
+body {
+    background-color: #2f2f2f;
+}
+
+.gns3sec {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.gns3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.gns3-welcomeinfo h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.gns3-welcomeinfo p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.gns3-welcomeinfo a {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    transition: color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 42px;
+}
+
+.gns3-welcomeinfo a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.gns3-welcomeinfo {
+    margin-bottom: 40px;
+}
+
+.gns3-welcomeinfo p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.gns3-definition {
+    text-align: left;
+}
+
+.gns3-definition h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.gns3-definition p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+.gns3-definition p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.gns3-installations {
+    text-align: left;
+}
+
+.gns3-installation1 h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.gns3-installation1 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.gns3-installation4 p,
+.gns3-installation3 p,
+.gns3-installation2 p,
+.gns3-installation1 p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.gns3-installation1 a {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.gns3-installation1 a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.gns3-installation2 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.gns3-installation3 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.gns3-installation1 p:hover,
+.gns3-installation2 p:hover,
+.gns3-installation4 p:hover,
+.gns3-installation3 p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.gns3-installation4 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.moreinformations {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.moreinformations:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+

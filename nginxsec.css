@@ -1,0 +1,138 @@
+body {
+    background-color: #2f2f2f;
+}
+
+.nginxsec {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nginx-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.nginx-welcomeinfo h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 42px;
+    margin-bottom: 0;
+}
+
+.nginx-welcomeinfo p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.nginx-welcomeinfo a {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 22px;
+    transition: color 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 42px;
+}
+
+.nginx-welcomeinfo a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.nginx-welcomeinfo {
+    margin-bottom: 75px;
+}
+
+.nginx-welcomeinfo p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.nginx-definition {
+    text-align: left;
+}
+
+.nginx-definition h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.nginx-definition p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+.nginx-definition p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.nginx-installations {
+    text-align: left;
+}
+
+.nginx-installation1 h2 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.nginx-installation1 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.nginx-installation2 p,
+.nginx-installation1 p {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 16px;
+    margin-top: 15px;
+    transition: color 0.3s;
+    cursor: pointer;
+    line-height: 27px;
+}
+
+.nginx-installation1 a {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nginx-installation1 a:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.nginx-installation2 h3 {
+    color: rgba(255, 255, 255, 0.752);
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.nginx-installation1 p:hover,
+.nginx-installation2 p:hover {
+    color: rgba(255, 255, 255, 0.752);
+}
+
+.moreinformations10 {
+    color: rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.moreinformations10:hover {
+    color: rgba(255, 255, 255, 0.752);
+}

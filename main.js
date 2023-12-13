@@ -5,14 +5,42 @@ document.querySelector('.p2').addEventListener('click', function() {
 document.querySelector('.senproh2').addEventListener('click', function() {
     window.location.href = 'https://www.senpro.de';
 });
-
-function openPopup(title, content) {
-    document.getElementById('popup-title').innerText = title;
-    document.getElementById('popup-content').innerHTML = content;
-
-    document.getElementById('popup-container').style.display = 'flex';
+document.querySelector('.gns3').addEventListener('click', function() {
+    window.location.href = 'https://www.senpro.de';
+});
+function weiterleiten() {
+    window.location.href = 'gns3.html';
 }
-
-function closePopup() {
-    document.getElementById('popup-container').style.display = 'none';
+function weiterleiten2() {
+    window.location.href = 'nginx.html';
+}
+function weiterleiten3() {
+    window.location.href = 'docker.html';
+}
+function weiterleiten4() {
+    window.location.href = 'kubernetes.html';
+}
+function weiterleiten5() {
+    window.location.href = 'github.html';
+}
+function weiterleiten6() {
+    window.location.href = 'linux.html';
+}
+function weiterleiten7() {
+    window.location.href = 'teams.html';
+}
+function weiterleiten8() {
+    window.location.href = 'bitwarden.html';
+}
+function weiterleiten9() {
+    window.location.href = 'java.html';
+}
+function boxweitl1() {
+    window.location.href = 'https://grafana.senpro.it/?orgId=1';
+}
+function boxweitl2() {
+    window.location.href = 'https://grafana.senpro.it/dashboards';
+}
+function boxweitl3() {
+    window.location.href = 'https://grafana.senpro.it/admin';
 }
